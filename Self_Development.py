@@ -30,11 +30,18 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 # List of broader keywords
 
 keywords = [
+ "Self Improvement", "Self Developmen", "Personal Growth", "Personal Development",
 
- Self Improvement, Self Development, Personal Growth, Personal Development, Self Help, Success Mindset, Daily Motivation, Become Better Version, Productivity Hacks, Habits of Successful People, Discipline Motivation, Life Changing Habits, Self Growth Journey, Self Discipline Tips, Atomic Habits Summary, Mindset Shift, Improve Your Life, Build Better Habits, Motivation to Change, Morning Routine Motivation, Life Advice That Works, Self Love and Confidence, Growth Mindset, Better Life Tips, Self Development Plan
-Powerful Habits, Atomic Habits, Daily Routine Habits, Success Habits, Habit Tracker, Change Your Habits
-Daily Motivation, Stay Motivated, Morning Motivation, Discipline Over Motivation, No Excuses Mindset
-Mindset is Everything, Fixed vs Growth Mindset, Positive Thinking, Reprogram Your Mind
+"Self Help", "Growth Mindset", "Productivity", "Success Habits", "Discipline",
+
+"Motivation", "Morning Routine", "Life Advice", "Mindset Shift",
+
+"Change Your Life", "Better Version of Yourself", "Time Management",
+
+"Self Discipline", "Mind Reprogramming", "Focus and Consistency",
+
+"Life Transformation"
+
 ]
 
 
