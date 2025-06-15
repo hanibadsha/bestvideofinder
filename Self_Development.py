@@ -1,4 +1,3 @@
-
 import streamlit as st
 
 import requests
@@ -8,7 +7,7 @@ from datetime import datetime, timedelta
 
 # YouTube API Key
 
-API_KEY = "Enter your API Key here"
+API_KEY = "AIzaSyD-dSxr8fi2N58WtXi5c7bBYIgHZFODtwc"
 
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 
@@ -30,7 +29,7 @@ days = st.number_input("Enter Days to Search (1-30):", min_value=1, max_value=30
 # List of broader keywords
 
 keywords = [
- "Self Improvement", "Self Developmen", "Personal Growth", "Personal Development",
+ "Self Improvement", "Self Development", "Personal Growth", "Personal Development",
 
 "Self Help", "Growth Mindset", "Productivity", "Success Habits", "Discipline",
 
@@ -216,5 +215,4 @@ if st.button("Fetch Data"):
 
     except Exception as e:
 
-        st.error(f"An error occurred: {e}")
-
+        st.error(f"An error occurred: {e}
